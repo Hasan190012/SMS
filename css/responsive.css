@@ -1,0 +1,133 @@
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .sidebar {
+        width: 100%;
+    }
+    
+    .chart-area {
+        height: 300px !important;
+    }
+    
+    .chart-pie {
+        height: 250px !important;
+    }
+    
+    .img-profile {
+        height: 2rem;
+        width: 2rem;
+    }
+    
+    .topbar .dropdown .dropdown-menu {
+        width: calc(100% - 2rem);
+    }
+    
+    .sidebar .sidebar-brand {
+        font-size: 1rem;
+    }
+    
+    .card-body {
+        padding: 0.75rem;
+    }
+}
+
+/* Small devices (tablets, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .chart-area {
+        height: 350px !important;
+    }
+    
+    .chart-pie {
+        height: 300px !important;
+    }
+    
+    .sidebar-card-illustration {
+        width: 50px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .chart-area {
+        height: 400px !important;
+    }
+    
+    .chart-pie {
+        height: 350px !important;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .chart-area {
+        height: 450px !important;
+    }
+    
+    .chart-pie {
+        height: 400px !important;
+    }
+}
+
+/* General responsive classes */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.table-responsive {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* Responsive text adjustments */
+@media (max-width: 767.98px) {
+    h1 {
+        font-size: 1.75rem;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+    
+    h3 {
+        font-size: 1.25rem;
+    }
+    
+    .text-xs {
+        font-size: 0.7rem;
+    }
+}
+
+/* Responsive card adjustments */
+@media (max-width: 575.98px) {
+    .card {
+        margin-bottom: 1rem;
+    }
+    
+    .col-xl-3,
+    .col-md-6 {
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+    }
+}
+
+/* Responsive sidebar adjustments */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 0;
+        overflow: hidden;
+    }
+    
+    .sidebar.toggled {
+        width: 100%;
+    }
+    
+    .sidebar-brand-icon {
+        font-size: 1.5rem;
+    }
+    
+    .sidebar-brand-text {
+        font-size: 1rem;
+    }
+} 
