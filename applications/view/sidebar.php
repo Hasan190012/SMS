@@ -7,7 +7,7 @@
                 <div class="sidebar-brand-icon rotate-n-0">
                 <i class="bi bi-book-fill"></i>
                 </div>
-                <div class="sidebar-brand-text mx-3">Modern Schools</div>
+                <div class="sidebar-brand-text mx-3">Modern Schools system</div>
             </a>
 
             <!-- Divider -->
